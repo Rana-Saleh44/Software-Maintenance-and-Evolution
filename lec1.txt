@@ -1,0 +1,67 @@
+Taxonomy"classification" of Software Maintenance and Evolution
+
+Software Evolution : TOC
+intro
+taxonomy
+models
+Program Comprehension
+Impact Analysis
+Refactoring
+Reengineering
+Legacy Information Systems
+Reuse and Domain Engineering
+
+impact analysis: to the process of assessing the potential effects or consequences that changes to a software system may have on its functionality, performance, and other related aspects.
+
+“software evolution”->growth characteristics"new but related" of software
+          -new functionalities,
+          -perform better,
+          -run on a different operating system.
+
+“maintenance”->three basic categories -corrective,
+                                      -adaptive,
+                                      -perfective
+
+time pass-> stakeholders->more knowledge->system evolves
+
+Software Maintenance->fixing bugs-> by planning(must)->Unplanned activities are also necessitated->a new usage of the system may emerge.
+
+the activities like bug fixing are scheduled and executed intentionally, while "Unplanned activities are also necessitated" implies that unexpected events, like the emergence of new system usages, may require immediate attention and action despite not being part of the original plan.
+
+maintenance -> not involve making major changes to the architecture and the design 
+
+“Software maintenance means to preserve from failure or decline.”
+“Software evolution means a continuous change from lesser, simpler, or worse state to a
+higher or better state.”
+
+“maintenance for all post-delivery support (ongoing assistance and upkeep provided to software after it has been delivered or deployed to users.)and evolution to those driven by changes in
+requirements.”
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
