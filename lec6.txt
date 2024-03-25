@@ -1,0 +1,23 @@
+Evolution and Maintenance Models
+
+Maintenance as part of the SDLC
+req def 3%->preliminary design 5%- detailed design 5%-> implem 7%->testing 15%"all the previous is a develpoment phase"->operations and maintenance 67%"maintenance phase"{Software Maintenance Life Cycle (SMLC)}
+
+Software maintenance has unique characteristics:
+Constraints of an existing system
+Shorter time frame
+Available test data
+
+Why Do We Need Models to Manage & Execute Software Maintenance Activities?
+ Change, Evolution, system configuration->complicate->maintenance activities.
+ software product->released->customer->executable code,
+whereas the corresponding “product” within the supplier organization is source code.
+Thus, strict control must be kept, otherwise exact source code representation of a
+particular executable version may not exist.
+
+Three maintenance models will be explained:
+1. Reuse old
+2. Simple Staged relatively new
+3. Change Mini-cycle still in research
+
+Change Mini-Cycle Model
