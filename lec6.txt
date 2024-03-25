@@ -1,5 +1,4 @@
-Evolution and Maintenance Models
-
+Evolution and Maintenance Models Readings Chapter 3 : 3.4, 3.5, 3.6
 Maintenance as part of the SDLC
 req def 3%->preliminary design 5%- detailed design 5%-> implem 7%->testing 15%"all the previous is a develpoment phase"->operations and maintenance 67%"maintenance phase"{Software Maintenance Life Cycle (SMLC)}
 
@@ -21,3 +20,27 @@ particular executable version may not exist.
 3. Change Mini-cycle still in research
 
 Change Mini-Cycle Model
+Software change->may->introduce new requirements or alter the software system if requirements are not correctly implemented.
+change mini-cycle evolutionary model  check the figure in slide 5
+
+mini-cycle model consists of five major phases:
+1. Change Request (CR): defect report or enhancement request
+2. Analyze and plan change: Program comprehension, Impact analysis and ripple effect
+3. Implement change: change propagation
+4. Verify and validate: code review, regression testing, and execution of new tests
+5. Documentation change.
+
+Software Maintenance Standard
+ IEEE and ISO have both addressed s/w maintenance processes.
+ IEEE/EIA 1219 considers maintenance as a fundamental life cycle process , it
+organizes the maintenance process in seven activities :
+ problem identification, analysis, design, implementation, system test, acceptance
+test and delivery.
+
+ ISO/IEC 14764 describes s/w maintenance as an iterative process for
+managing and executing software maintenance activities, which are :
+ process implementation, problem and modification analysis, modification
+implementation, maintenance review/acceptance, migration and retirement.
+
+
+
