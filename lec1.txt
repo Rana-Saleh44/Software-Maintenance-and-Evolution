@@ -1,3 +1,5 @@
+❑Book Chapter 1
+▪ Section 1.1, 1.2
 Taxonomy"classification" of Software Maintenance and Evolution
 
 Software Evolution : TOC
@@ -34,34 +36,34 @@ maintenance -> not involve making major changes to the architecture and the desi
 “Software evolution means a continuous change from lesser, simpler, or worse state to a
 higher or better state.”
 
-“maintenance for all post-delivery support (ongoing assistance and upkeep provided to software after it has been delivered or deployed to users.)and evolution to those driven by changes in
+“maintenance for all post-delivery{after delivery} support (ongoing assistance and upkeep provided to software after it has been delivered or deployed to users.)and evolution to those driven by changes in
 requirements.”
 
+❑“Over time what evolves is not the software but our knowledge about a
+particular type of software.”
 
 
+❑Lehman formulated a set of observations that he called laws of evolution.->results of ->evolution of large-scale proprietary
+or closed source system (CSS).
 
+❑The laws concern what Lehman called E-type systems:
+“Monolithic systems produced by a team within an organization that solve a
+real world problem and have human users.”
 
+Software Evolution: Laws of Lehman
+1st.Continuing change->system->less satisfying->user over time->unless->adapted->new needs.
+2nd.Increasing complexity->system->more complex->unless->explicitly to reduce complexity.
+3rd.the process fo software evolution ->Self-regulating
+4th.Conservation of organizational stability
+5th.Conservation of familiarity->The amount of new content in each successive
+release of a system tends to stay constant or decrease over time.
+6th.Continuing growth->functionality in a system will increase over
+time, in order to please its users.
+7th.Declining quality->system->loosing quality over time,
+unless its design is carefully maintained and adapted to new operational constraints.
+8th.Feedback system->development process is a multi-loop, multi-agent, multi-level
+feedback system.
 
+In software maintenance and evolution, innovation and changes in user needs drive evolution, while addressing bugs and ensuring system stability drive maintenance; they are related but serve different purposes.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+In Lahman's laws, particularly the third law of "Self-regulation," it suggests that the process of software evolution has inherent mechanisms that maintain balance and consistency in the distribution of both the products (such as software updates or versions) and the artifacts of the development process (like documentation, test cases, etc.). This means that over time, as the software evolves, it tends to naturally manage and adjust the distribution of its products and associated artifacts without external intervention. Essentially, it implies that the software evolution process has built-in mechanisms to keep itself organized and coherent.
