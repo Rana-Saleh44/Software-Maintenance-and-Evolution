@@ -1,4 +1,4 @@
-Evolution and Maintenance Models Readings Chapter 3 : 3.4, 3.5, 3.6
+Evolution and Maintenance Models      Readings Chapter 3 : 3.4, 3.5, 3.6
 Maintenance as part of the SDLC
 req def 3%->preliminary design 5%- detailed design 5%-> implem 7%->testing 15%"all the previous is a develpoment phase"->operations and maintenance 67%"maintenance phase"{Software Maintenance Life Cycle (SMLC)}
 
@@ -41,6 +41,42 @@ test and delivery.
 managing and executing software maintenance activities, which are :
  process implementation, problem and modification analysis, modification
 implementation, maintenance review/acceptance, migration and retirement.
+
+//ripple effect
+//change propagation
+
+IEEE/EIA 1219 Maintenance Process  check slide 8
+standard->seven-phases/[the previous]->Each->five associated attributes
+Activity definition:implementation process->activity.
+Input:items->required as input->activity.
+Output:items->produced by the activity.
+Control:items->provide control over the activity.
+Metrics:items->measured during the execution of the activity.
+
+•The change request (CR) is submitted in  slide 9
+the form of a modification request (MR)
+for -correction or for
+    -enhancement.
+MR & CR are used interchangeably.
+• Activities include:
+1. reject or accept the MR,
+2. identify and estimate the resources needed to change the system
+3. put the MR in a batch of changes scheduled for implementation.
+
+
+Analysis check slide 10
+Design check slide 11
+Implementation ...
+System test  ...
+Acceptance test   ...
+Delivery  ...
+
+
+
+
+
+
+
 
 
 
