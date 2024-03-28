@@ -1,0 +1,240 @@
+Taxonomy of Software Maintenance and Evolution
+Readings
+
+❑Book Chapter 2
+▪ Section 2.1
+
+dr record bugzilla
+
+A wider view on Software Maintenance
+❑Practitioners took a narrow view of maintenance as
+ □ correcting errors
+ □ enhancing the functionalities of the software.
+❑The ISO/IEC 14764 standard defines software maintenance as
+ ▪ “the totality of activities required to provide cost-effective support to a software         system.
+  Activities are performed during the pre-delivery stage as well as the post-delivery stage.”
+  □Post-delivery activities includes changing software, providing training, and operating a help desk.
+  □Pre-delivery activities include planning for post-delivery operations.
+
+
+Classification of Software Maintenance Activities->intention-based SM
+                                                 ->Activity based SM
+                                                 ->evidence based SM
+
+
+intention-based SM->Corrective,Adaptive,Perfective,Preventive
+Activity Based SM->Corrections,Enhancements
+Evidence-Based SM->Enhancive,Corrective,Reductive{all the previous are business rules},Adaptive,Performance,Preventive,Groomative{all the previous ae software properties},Updative
+Reformative{all the pre documentation}
+Evaluative
+Consultive
+Training{all the pre support interface}
+
+Intention-based Classification of Software Maintenance - Corrective Maintenance
+❑ Corrective maintenance: The purpose of corrective maintenance is to correct
+failures: processing failures and performance failures.
+❑ Examples of corrective maintenance:
+▪ A program producing a wrong output → processing failure.
+▪ a program that aborts or produces incorrect results → processing failure.
+▪ A program not being able to meet real-time requirements → performance failure.
+❑ The process of corrective maintenance includes isolation and correction of defective
+elements in the software.
+❑ Corrective maintenance is a reactive process, which means that corrective maintenance is
+performed after detecting defects with the system.
+
+Intention-based Classification of Software Maintenance - Adaptive Maintenance
+❑Adaptive maintenance: The purpose of adaptive maintenance is to enable the system to
+adapt to changes in its data environment or processing environment.
+❑This process modifies the software to properly interface with a changing or changed environment.
+❑Adaptive maintenance includes system changes, additions, deletions, modifications, extensions, and
+enhancements to meet the evolving needs of the environment in which the system must operate.
+❑Examples of Adaptive maintenance are:
+▪ changing the system to support new hardware configuration
+▪ converting the system from batch to on-line operation
+▪ changing the system to be compatible with other applications (OS or Database)
+
+
+Intention-based Classification of Software Maintenance - Perfective Maintenance
+❑Perfective maintenance: The purpose of perfective maintenance is to make a variety
+of improvements, namely, user experience, processing efficiency, and maintainability.
+❑Examples of perfective maintenance are:
+▪ the program outputs can be made more readable for better user experience;
+▪ the program can be modified to make it faster, thereby increasing the processing efficiency;
+▪ and the program can be restructured to improve its readability, thereby increasing its
+maintainability.
+❑Activities for perfective maintenance include refactoring- restructuring of the code ,
+creating and updating documentations, and tuning the system to improve performance.
+❑It is also called “reengineering”.
+
+
+Intention-based Classification of Software Maintenance - Preventive Maintenance
+❑Preventive maintenance: The purpose of preventive maintenance is to prevent
+problems from occurring by modifying software products. to eliminate hazard or reduce its associated
+risk to an acceptable level.
+▪ a hazard is a state of a system or a physical situation which, when combined with certain environment
+conditions, could lead to an accident.
+❑Preventive maintenance is identifying future risks and unknown problems, and taking actions so that
+those problems do not occur. It involves occasionally terminating an application or a system, cleaning
+its internal state, and restarting it.
+❑Preventive maintenance is very often performed on safety critical and high available software systems
+(eg. Control software for Patriot Missile, control software for telecommunication services).
+❑The concept of “software rejuvenation” is a preventive maintenance measure to prevent, or at least postpone, the occurrences of failures (crash) resulting from continuously running the software system.
+
+..............
+
+Activity-based Classification of Software Maintenance -Corrections
+❑Corrections: Activities in this category are designed to fix defects in the
+system, where a defect is a discrepancy between the expected behaviour and
+the actual behaviour of the system.
+❑ e.g. wrong calculation of taxes in a payroll component of the system
+❑ e.g. usage of wrong metrics for calculation
+
+Activity-based Classification of Software Maintenance -Enhancements
+❑Enhancements Maintenance activities are designed to effect changes to the
+system.
+❑ It is further divided into three subcategories as follows:
+▪ enhancement activities that modify some of the existing requirements implemented by
+the system;
+▪ enhancement activities that add new system requirements
+▪ enhancement activities that modify the implementation without changing the
+requirements implemented by the system.
+
+.......
+
+Evidence-based Classification of Software Maintenance
+❑ Twelve mutually exclusive types of maintenance activities were
+grouped into four clusters.
+❑ Modifications performed, detected, or observed on four aspects
+of the system being maintained, are used as the criteria to cluster
+the types of maintenance activities, these are:
+▪ the whole software
+▪ the external documentation
+▪ the properties of the program code
+▪ the system functionality experienced by the customer
+❑Enhancive: Ordinary activities in this type are adding and modifying
+business rules to enhance the system’s functionality available to the
+customer, and adding new data flows into or out of the software.
+❑ Corrective: Ordinary activities in this type are correcting identified
+bugs, adding defensive programming strategies, and modifying the
+ways exceptions are handled.
+❑Reductive: Ordinary activities in this type drop some data generated
+for the customer, decreasing the amount of data input to the system,
+and decreasing the amount of data produced by the system.
+❑ Adaptive: Ordinary activities in this type port the software to a
+different execution platform, and increase the utilization of COTS
+components.
+❑ Performance: Activities in performance type produce results that
+impact the user. Those activities improve system up time and replace
+components and algorithms with faster ones.
+❑ Preventive: Ordinary activities in this type perform changes to
+enhance maintainability, and establish a base for making a future
+transition to an emerging technology.
+❑ Groomative: Ordinary activities in this type are substituting components
+and algorithms with more efficient and simpler ones, modifying the
+conventions for naming data, changing access authorizations, compiling
+source code, and doing backups.
+❑ Updative: Ordinary activities in this type are substituting out-of-date
+documentation with up-to-date documentation, making semi-formal, say, in
+UML to document current program code, and updating the documentation
+with test plans
+❑ Reformative: Ordinary activities in this type improve the readability of the
+documentation, make the documentation consistent with other changes in
+the system, prepare training materials, and add entries to a data dictionary.
+❑ Evaluative: In this type, common activities include reviewing the program
+code and documentations, examining the ripple effect of a proposed
+change, designing and executing tests, examining the programming support
+provided by the operating system, and finding the required data and
+debugging.
+❑ Consultive: In this type, cost and length of time are estimated for
+maintenance work, personnel run a help desk, customers are assisted to
+prepare maintenance work requests, and personnel make expert knowledge
+about the available resources and the system to others in the organization
+to improve efficiency.
+❑ Training: This means training the stakeholders about the implementation
+of the system.
+
+
+
+check slide 26 
+❑ The first dimension is the customer’s
+ability to perform its business function
+while continuing to use the system.
+▪ E.g. if the software is enhanced with
+new functionalities, then the
+customer is more likely to be able to
+achieve its business goals than
+modifications on non-code
+documentation.
+❑ The second dimension is the software.
+This is arranged from top to bottom.
+
+
+Evidence-based Classification of Software
+Maintenance - Decision Criteria
+❑ The classification is based on modifications deliberately done, modifications
+observed, modifications manifested, and modifications detected. With respect to :
+▪ A—the whole software system.
+▪ B—the program code.
+▪ C—the functionalities experienced by customers.
+▪ D—the external documentation
+❑Activities are classified into different types by applying a two-step decision
+process:
+▪ First, apply criteria-based decisions to make the clusters of types.
+▪ Next, apply the type decisions to identify one type within the cluster.
+
+
+check decision tree in 28
+
+
+Evidence-based Classification of Software Maintenance - Example
+❑A maintenance engineer, after analyzing all the documentation
+along with the program code, modified the program code for one
+component without modifying other documentation, built the
+rewritten component, executed the regression test suite, checked it
+into the version control, and embedded it into the production system.
+The only consequence the customer observed was improved latency.
+❑Question: Identify the type of software maintenance performed by
+the engineer
+❑ A maintenance engineer, after analyzing all the documentation
+along with the program code, modified the program code for one
+component without modifying other documentation, built the
+rewritten component, executed the regression test suite, checked it
+into the version control, and embedded it into the production system.
+The only consequence the customer observed was improved latency.
+❑ Question: Identify the type of software maintenance performed by
+the engineer
+
+
+check slide 31  Evidence-based Classification of Software
+Maintenance - Decision Criteria
+❑Sometimes, an objective evidence may be found to be ambiguous. In that case,
+clusters have their designated default types for use.
+❑The overall default type is evaluative, if there are ambiguities in an activity.
+
+
+very very important check slide 33 maintenance impact in the SW maintenance activity high->low
+
+
+Assignment 1
+
+❑Define at least 8 of the quality attributes ( aka. non-functional requirements)
+and mention a possible measure for each.
+❑Use the ISO 25010:2011 as your reference
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
